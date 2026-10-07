@@ -1,0 +1,60 @@
+{
+  "model": "time-varying epidemic counterfactual + monetized mortality + cumulative control cost",
+  "scan_range": [
+    "2020-01-23",
+    "2023-12-31"
+  ],
+  "default_vsl_rmb_per_death": 5000000,
+  "default_spatial_clustering_multiplier": 1.2,
+  "default_optimal_full_release_date": "2022-12-07",
+  "recommended_preparation_and_gradual_relaxation_start": "2022-10-23",
+  "default_optimum": {
+    "projected_deaths": 1050000,
+    "death_loss_trillion_rmb": 5.25,
+    "continued_control_loss_trillion_rmb": 5.77825,
+    "governance_stress_loss_trillion_rmb": 3.5299248403649606,
+    "release_wave_loss_trillion_rmb": 0.9,
+    "total_loss_trillion_rmb": 15.458174840364961,
+    "peak_critical_care_over_capacity": 0.95,
+    "cluster_adjusted_peak_over_capacity": 1.14
+  },
+  "all_scenarios": {
+    "p10": "2022-12-04",
+    "median": "2022-12-07",
+    "p90": "2023-01-11",
+    "scenario_count": 675
+  },
+  "by_value_of_statistical_life": [
+    {
+      "vsl_rmb": 2000000,
+      "p10": "2022-12-04",
+      "median": "2022-12-07",
+      "p90": "2023-01-11"
+    },
+    {
+      "vsl_rmb": 3500000,
+      "p10": "2022-12-04",
+      "median": "2022-12-07",
+      "p90": "2023-01-11"
+    },
+    {
+      "vsl_rmb": 5000000,
+      "p10": "2022-12-04",
+      "median": "2022-12-07",
+      "p90": "2023-01-11"
+    },
+    {
+      "vsl_rmb": 7500000,
+      "p10": "2022-12-04",
+      "median": "2022-12-07",
+      "p90": "2023-01-11"
+    },
+    {
+      "vsl_rmb": 10000000,
+      "p10": "2022-12-04",
+      "median": "2022-12-07",
+      "p90": "2023-01-11"
+    }
+  ],
+  "warning": "Counterfactual deaths, VSL and containment-attributable economic costs are not uniquely identifiable. The interval is more defensible than the point estimate."
+}

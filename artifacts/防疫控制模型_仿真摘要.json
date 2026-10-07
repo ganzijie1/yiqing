@@ -1,0 +1,26 @@
+{
+  "2020": {
+    "calibrated_control": 0.9199999999999999,
+    "effective_reproduction_number": 0.28320000000000023,
+    "infection_reduction_by_day_46": 0.9906836048249434,
+    "source_targets": {
+      "Rt": 0.28,
+      "infection_reduction": 0.96
+    }
+  },
+  "2022": {
+    "calibrated_effective_R_after_transition": 2.2666666666666666,
+    "initial_infectious_seed_fraction": 0.009243557351895582,
+    "peak_day_after_dec7": 14,
+    "attack_rate_by_feb7": 0.82373839574202,
+    "hospital_probability_calibrated": 0.0042495345224941505,
+    "severe_probability_calibrated": 0.00026645938941904067,
+    "hospital_peak": 1625000.0,
+    "hospital_peak_day": 26,
+    "severe_peak": 128000.0,
+    "severe_peak_day": 31,
+    "early_open_severe_peak_sensitivity": 192000.0,
+    "pre_expansion_capacity": 56480.0,
+    "dec25_icu_capacity": 181000.0
+  }
+}
